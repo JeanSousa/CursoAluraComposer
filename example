@@ -98,3 +98,19 @@
 //ARQUIVOS EXECUTAVEIS DAS DEPENDENCIAS
 
 //os arquivos executaveis das dependencias ficam em vendor/bin/
+
+
+//INSTALANDO PHPCS DE FORMA A SER UMA DEPENDENCIA DE DESENVOLVIMENTO
+
+//ao executar o comando "vendor/bin/phpcs  --standard=PSR12 src"
+//ele mostra os erros dos arquivos dentro da pasta src que nao se encaixam na PSR12
+// FILE: /var/www/html/Cursos/buscador-cursos-alura/src/Buscador.php
+// ----------------------------------------------------------------------
+// FOUND 1 ERROR AFFECTING 1 LINE
+// ----------------------------------------------------------------------
+//  1 | ERROR | [x] Whitespace found at end of line
+// ----------------------------------------------------------------------
+// PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+// ----------------------------------------------------------------------
+
+

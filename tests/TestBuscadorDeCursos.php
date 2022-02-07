@@ -11,8 +11,6 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class TestBuscadorDeCursos extends TestCase
 {
-
-
     private $httpClientMock;
     private $url = 'url-teste';
 
