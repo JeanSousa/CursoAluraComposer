@@ -1,8 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Buscador.php';
-
+// require 'src/Buscador.php'; //esse require foi configurado no autoloader no composer json
+// com o dump-autoload eu recarrego a informação do composer json para o vendor/autoload
+// conhecer essas informaçoes
 use Alura\BuscadorDeCursos\Buscador;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
