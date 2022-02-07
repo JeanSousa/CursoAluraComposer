@@ -60,4 +60,17 @@
 //Armazena as dependencias de cada pacote e a versao exata dos pacotes instalados
 
 
+//AUTOLOAD
 
+ "autoload": {
+        "classmap": [
+            "./Teste.php"  //mapeia classes que não estao na psr 4, nao possuem namespace
+        ],
+        "files": [ //mapeia arquivos que contem trechos de codigo ex funcoes mas nao possuem classes
+           "./functions.php",
+           "./helpers.php"
+        ],
+        "psr-4": { 
+            "Alura\\BuscadorDeCursos\\": "src/" //mapeia seu namespace e diretorio
+        }
+    }
