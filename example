@@ -166,3 +166,32 @@
  "post-update-cmd": [
            "@test"
        ]
+
+
+//CRIANDO A VERSAO DO PACOTE 
+
+//Quando crio uma tag "git tag -a v1.0.0" estou indicando a versao da minha biblioteca
+//enviando tag "git push origin v1.0.0"
+//os numeros da versao significam vMajor.Minor.Patch
+// MAJOR version when you make incompatible API changes, (quando as mudancas sao incompativeis)
+// MINOR version when you add functionality in a backwards compatible manner, and
+// PATCH version when you make backwards compatible bug fixes.
+
+
+//CONSTRAINTS DE VERSIONAMENTO
+//https://getcomposer.org/doc/articles/versions.md#exact-version-constraint
+// POSSO DEFINIR NO REQUIRE 
+
+// VERSOES EXATAS: 1.0.2
+
+// RANGE DE VERSOES: (ex da versao 1 até a 2 uso hifem)  1.0 - 2.0 
+
+// POSSO USAR O ASTERISCO PARA INDICAR QUALQUER COISA NO LUGAR:  1.0.*
+
+// O TIL (~) INDICA MAIOR OU IGUAL A VERSAO ATE A PROXIMA: 
+// ~1.2 is equivalent to >=1.2 <2.0.0
+// ~1.2.3 is equivalent to >=1.2.3 <1.3.0 (especificando todos numeros MAJOR MINOR PATCH)
+
+// O CIRCUNFLEXO (^) SERVE PARA PEGAR DA VERSAO ESPECIFICADA ATE UMA VERSAO MENOR
+// QUE A QUEBRA DE VERSÃO, OU SEJA NAO MUDA A MAJOR MANTENDO A COMPATIBILIDADE
+// ^1.2.3 is equivalent to >=1.2.3 <2.0.0
