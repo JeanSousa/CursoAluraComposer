@@ -1,0 +1,3 @@
+Buscador De Cursos (Alura\BuscadorDeCursos\Tests\BuscadorDeCursos)
+ [x] Buscador deve retornar cursos
+

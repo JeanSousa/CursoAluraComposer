@@ -114,3 +114,27 @@
 // ----------------------------------------------------------------------
 
 
+//SCRIPTS 
+//o script do phpunit eu nao preciso passar o path vendor/bin porque se o comando
+//nao existir no sistema operacional ele automaticamente ira procurar na vendor/bin o executavel
+
+ "scripts": {
+       "test": "phpunit --colors tests/TestBuscadorDeCursos.php"
+  }
+
+
+//CHECK
+//O comando check organiza os comandos a serem executados (comandos scripts criados)
+"scripts": {
+       "test": "phpunit tests/TestBuscadorDeCursos.php",
+       "cs": "phpcs --standard=PSR12 src/",
+       "phan": "phan --color --allow-polyfill-parser",
+       "check": [
+           "@pan",
+           "@cs",
+           "@test"
+       ]
+    }
+
+//O COMANDO "composer list" LISTA OS COMANDOS DO COMPOSER INCLUSIVE OS PERSONALIZADOS
+//NO ARQUIVO  'composer.json'
