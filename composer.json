@@ -30,6 +30,7 @@
        "test": "phpunit tests/TestBuscadorDeCursos.php",
        "cs": "phpcs --standard=PSR12 src/",
        "phan": "phan --color --allow-polyfill-parser",
+       "limpa-cache": "rm -rf cache",
        "check": [
            "@phan",
            "@cs",

@@ -138,3 +138,23 @@
 
 //O COMANDO "composer list" LISTA OS COMANDOS DO COMPOSER INCLUSIVE OS PERSONALIZADOS
 //NO ARQUIVO  'composer.json'
+
+
+//COMANDOS DO SISTEMA COM SCRIPTS
+//No arquivo "composer.json" posso criar scripts para rodar comandos que não seja
+//de alguma lib instalada, por exemplo uma classe php ou comandos do sistema operacional
+ //"scripts": {
+   //    "test": "phpunit tests/TestBuscadorDeCursos.php",
+   //    "cs": "phpcs --standard=PSR12 src/",
+   //    "phan": "phan --color --allow-polyfill-parser",
+       "limpa-cache": "rm -rf cache",
+   //    "check": [
+   //        "@phan",
+   //        "@cs",
+   //        "@test"
+   //    ]
+   // },
+
+//commandos php 
+
+"comandox": "Namespace\\Da\\Classe:metodo"
