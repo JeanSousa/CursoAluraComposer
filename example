@@ -158,3 +158,11 @@
 //commandos php 
 
 "comandox": "Namespace\\Da\\Classe:metodo"
+
+
+//EVENTOS https://getcomposer.org/doc/articles/scripts.md
+//eventos podem ser executados depois de uma ação, por exemplo o evento abaixo é executado
+//depois do composer update
+ "post-update-cmd": [
+           "@test"
+       ]

@@ -916,23 +916,23 @@
     },
     {
         "name": "phar-io/version",
-        "version": "3.1.0",
-        "version_normalized": "3.1.0.0",
+        "version": "3.1.1",
+        "version_normalized": "3.1.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/phar-io/version.git",
-            "reference": "bae7c545bef187884426f042434e561ab1ddb182"
+            "reference": "15a90844ad40f127afd244c0cad228de2a80052a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/phar-io/version/zipball/bae7c545bef187884426f042434e561ab1ddb182",
-            "reference": "bae7c545bef187884426f042434e561ab1ddb182",
+            "url": "https://api.github.com/repos/phar-io/version/zipball/15a90844ad40f127afd244c0cad228de2a80052a",
+            "reference": "15a90844ad40f127afd244c0cad228de2a80052a",
             "shasum": ""
         },
         "require": {
             "php": "^7.2 || ^8.0"
         },
-        "time": "2021-02-23T14:00:09+00:00",
+        "time": "2022-02-07T21:56:48+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -2928,24 +2928,24 @@
     },
     {
         "name": "symfony/css-selector",
-        "version": "v5.4.2",
-        "version_normalized": "5.4.2.0",
+        "version": "v5.4.3",
+        "version_normalized": "5.4.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/css-selector.git",
-            "reference": "cfcbee910e159df402603502fe387e8b677c22fd"
+            "reference": "b0a190285cd95cb019237851205b8140ef6e368e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/cfcbee910e159df402603502fe387e8b677c22fd",
-            "reference": "cfcbee910e159df402603502fe387e8b677c22fd",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/b0a190285cd95cb019237851205b8140ef6e368e",
+            "reference": "b0a190285cd95cb019237851205b8140ef6e368e",
             "shasum": ""
         },
         "require": {
             "php": ">=7.2.5",
             "symfony/polyfill-php80": "^1.16"
         },
-        "time": "2021-12-16T21:58:21+00:00",
+        "time": "2022-01-02T09:53:40+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -3059,17 +3059,17 @@
     },
     {
         "name": "symfony/dom-crawler",
-        "version": "v4.4.36",
-        "version_normalized": "4.4.36.0",
+        "version": "v4.4.37",
+        "version_normalized": "4.4.37.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/dom-crawler.git",
-            "reference": "42de12bee3b5e594977209bcdf58ec4fef8dde39"
+            "reference": "60d36408a3a48500bcc6e30d9f831e51d04d7fa4"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/42de12bee3b5e594977209bcdf58ec4fef8dde39",
-            "reference": "42de12bee3b5e594977209bcdf58ec4fef8dde39",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/60d36408a3a48500bcc6e30d9f831e51d04d7fa4",
+            "reference": "60d36408a3a48500bcc6e30d9f831e51d04d7fa4",
             "shasum": ""
         },
         "require": {
@@ -3088,7 +3088,7 @@
         "suggest": {
             "symfony/css-selector": ""
         },
-        "time": "2021-12-28T14:48:02+00:00",
+        "time": "2022-01-02T09:41:36+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
