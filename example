@@ -207,4 +207,7 @@
 //TEMOS QUE ADICIONAR NO INICIO DO ARQUIVO QUE ELE PODE SER LIDO PELO PHP
 //#! /usr/bin/env php 
 
+//para commitar novamente é preciso subir uma nova tag apos o commit
+//git tag -a v1.1.0
+//mudei a minor version porque tem um arquivo binario sendo disponibilizado
 
