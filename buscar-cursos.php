@@ -1,3 +1,6 @@
+
+#! /usr/bin/env php 
+<!-- o trecho acima mostra que esse arquivo pode ser lido pelo php -->
 <?php
 
 require 'vendor/autoload.php';
@@ -16,5 +19,5 @@ $buscador = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
 foreach ($cursos as $curso) {
-    echo exibeMensagem($curso);
+    exibeMensagem($curso);
 }

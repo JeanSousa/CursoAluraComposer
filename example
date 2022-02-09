@@ -195,3 +195,16 @@
 // O CIRCUNFLEXO (^) SERVE PARA PEGAR DA VERSAO ESPECIFICADA ATE UMA VERSAO MENOR
 // QUE A QUEBRA DE VERSÃO, OU SEJA NAO MUDA A MAJOR MANTENDO A COMPATIBILIDADE
 // ^1.2.3 is equivalent to >=1.2.3 <2.0.0
+
+
+//TRANSFORMANDO ARQUIVO EM BINARIO 
+
+//NO composer.json ESSE TRECHO MOSTRA O ARQUIVO BINARIO 
+"bin": [
+    "buscar-cursos.php"
+]
+//mas para chamar assim: vendor/bin/buscar-cursos 
+//TEMOS QUE ADICIONAR NO INICIO DO ARQUIVO QUE ELE PODE SER LIDO PELO PHP
+//#! /usr/bin/env php 
+
+
